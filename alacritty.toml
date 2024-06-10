@@ -1,0 +1,29 @@
+# best theme ->
+# pastel_dark
+# monokai_charcoal
+# kanagawa_wave
+# github_dark_tritanopia
+
+import = ['~/.config/alacritty/alacritty-theme/themes/hardhacker.toml']
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+normal.family = "MesloLGS Nerd Font Mono"
+size = 14
+
+[window]
+title = "DISCTAR"
+opacity = 0.5
+blur = true
+padding.x = 5
+padding.y = 30
+decorations = "Transparent"
+dimensions.lines = 45
+dimensions.columns = 80
+
+
+[cursor]
+style = { shape = "Beam", blinking ="always"}
+blink_interval = 350
